@@ -33,30 +33,14 @@ const AlphaTradingLanding = () => {
           justifyContent: 'space-between'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            {/* Your Actual Alpha Logo */}
-            <div style={{ width: '3rem', height: '3rem', position: 'relative' }}>
-              <svg viewBox="0 0 100 100" style={{ width: '100%', height: '100%' }}>
-                <defs>
-                  <linearGradient id="alphaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#22c55e" />
-                    <stop offset="30%" stopColor="#16a34a" />
-                    <stop offset="70%" stopColor="#0ea5e9" />
-                    <stop offset="100%" stopColor="#2563eb" />
-                  </linearGradient>
-                </defs>
-                {/* Modern angular A shape matching your logo */}
-                <path d="M20 85 L35 15 L50 15 L50 30 L60 15 L75 15 L85 85 L70 85 L67 70 L58 70 L58 85 L42 85 L42 70 L33 70 L30 85 Z" 
-                      fill="url(#alphaGradient)" 
-                      opacity="0.9" />
-                {/* Inner crossbar */}
-                <path d="M38 50 L62 50 L60 60 L40 60 Z" 
-                      fill="url(#alphaGradient)" 
-                      opacity="0.8" />
-                {/* Side accent elements */}
-                <path d="M75 25 L85 30 L80 45 L70 40 Z" 
-                      fill="url(#alphaGradient)" 
-                      opacity="0.7" />
-              </svg>
+{/* Your Actual Alpha Logo */}
+<div style={{ width: '3rem', height: '3rem', position: 'relative' }}>
+  <img 
+    src="/Alpha Trading.png" 
+    alt="Alpha Trading Logo" 
+    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+  />
+</div>
             </div>
             <div style={{ fontSize: '1.25rem', fontWeight: 'bold', color: 'white' }}>Alpha Trading Pros</div>
           </div>
